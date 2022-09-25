@@ -1,0 +1,99 @@
+/*!important forces the change*/
+@font-face { /*Import a custom font*/
+  font-family: "custombold";
+  src: url(/fonts/custombold.otf);
+  }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+[name=PlayFrame] {
+  top: 300px !important;
+  left: 300px !important;
+  width: 350px !important;
+  height: 250px !important;
+  background-color: rgb(110, 110, 110) !important;
+  border-radius: 10px !important;
+  position: absolute !important;
+}
+
+
+[name=PlayB] {
+  left: 25px !important;
+  top: 180px !important;
+  width: 300px !important;
+  height: 50px !important;
+  position: absolute !important;
+  border: transparent !important;
+  background-color: rgb(70, 255, 45) !important;
+  font-family: custombold !important;
+}
+
+[name=PlayB]:hover {
+  position: absolute !important;
+  background-color: rgb(146, 255, 131) !important;
+}
+
+[name=UsernameFrame] {
+  left: 25px !important;
+  top: 25px !important;
+  width: 300px !important;
+  height: 50px !important;
+  position: absolute !important;
+  border: transparent !important;
+  font-family: custombold !important;
+}
+
+[name=dropdownServer] {
+  left: 25px !important;
+  top: 105px !important;
+  position: absolute !important;
+  border: transparent !important;
+  font-family: custombold !important;
+}
+
+[name=dropdownServerButton] {
+  width: 300px !important;
+  height: 50px !important;
+  position: absolute !important;
+  border: transparent !important;
+  font-family: custombold !important;
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+[name=dropdownServerButton]:hover {
+  background-color: rgb(211, 206, 206) !important;
+}
+
+[name=dropdownServerMenu] {
+  width: 300px !important;
+  height: fit-content !important;
+  position: absolute !important;
+  border: transparent !important;
+  font-family: custombold !important;
+}
+
+#NotifNoServerSelected {
+  position: absolute !important;
+  top: 225px !important;
+  left: 300px !important;
+  background-color: rgb(110, 110, 110) !important;
+}
+
+#NotifNoServerSelected:hover {
+  background-color: rgb(119, 119, 119) !important;
+}
+
+.server1 {
+  left: 25px !important;
+  top: 105px !important;
+}
+
+.form-control {
+  resize: none !important;
+}
