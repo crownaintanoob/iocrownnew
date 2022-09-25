@@ -19,15 +19,30 @@ document.addEventListener("playclicked", function (data) {
 });
 
 var app = new PIXI.Application({
+	autoResize: true,
   width: window.innerWidth,
   height: window.innerHeight,
   backgroundColor: 0x2c3e50
 });
 
+
 // Initialize the pixi Graphics class
 var graphics = new PIXI.Graphics();
 
 document.body.appendChild(app.view);
+
+
+// Resize function window
+function resize() {
+	const parent = app.view.parentNode;
+   
+	// Resize the renderer
+	app.renderer.resize(window.innerWidth, window.innerHeight);
+}
+
+resize();
+// Listen for window resize events
+window.addEventListener('resize', resize);
 
 // Set the fill color
 graphics.beginFill(0xe74c3c); // Red

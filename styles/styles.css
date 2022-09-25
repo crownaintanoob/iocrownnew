@@ -13,8 +13,8 @@ html, body {
 }
 
 [name=PlayFrame] {
-  top: 300px !important;
-  left: 300px !important;
+  top: 35vh !important;
+  left: 40vw !important;
   width: 350px !important;
   height: 250px !important;
   background-color: rgb(110, 110, 110) !important;
