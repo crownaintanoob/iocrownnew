@@ -81,8 +81,8 @@ html, body {
 
 #NotifNoServerSelected {
   position: absolute !important;
-  top: 225px !important;
-  left: 300px !important;
+  top: 25vh !important;
+  left: 40vw !important;
   background-color: rgb(110, 110, 110) !important;
 }
 

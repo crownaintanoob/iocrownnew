@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         if (containsNumbers($("[name='dropdownServerButton']").text()) == true) {
             $("#NotifNoServerSelected").toast("hide");
             PlayFrame[0].style.opacity = 1;
-            for (let opacityReduce = 0; opacityReduce < 10; opacityReduce++) {
+            for (let opacityReduce = 0; opacityReduce < 5; opacityReduce++) {
                 await sleep(25);
                 PlayFrame[0].style.opacity = PlayFrame[0].style.opacity - 0.2;
             }
